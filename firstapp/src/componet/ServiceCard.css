@@ -1,0 +1,32 @@
+
+
+.card-styles{
+    display: flex;
+    width: 30vw;
+    box-shadow: 1px 1px 3px 1px rgb(190, 185, 185) ;
+    align-items: center;
+}
+.text-styles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 100%;
+    width: 80%;
+    text-transform: uppercase;
+    color:#4192D9 ;
+}
+.vertical-line{
+    height: 1px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #236096;
+}
+
+.card-styles:hover{
+    box-shadow: 2px 2px 4px 2px  rgb(190, 185, 185);
+    color:rgb(255, 255, 255);
+    background-color: #236096;
+    transition: all 0.5s ease;
+}
