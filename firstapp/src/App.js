@@ -1,6 +1,7 @@
 import './App.css';
 import NavBar from './componet/NavBar';
 import MainContent from './componet/MainContent';
+import Home from './componet/Home';
 import Footer from './componet/Footer';
 import OurProductContainer from './componet/OurProductsContainer';
 function App() {
@@ -8,7 +9,7 @@ function App() {
   return (
     <div className="App">
          <NavBar />
-         <MainContent />
+         <Home />
          <OurProductContainer/>
          <Footer />
         
